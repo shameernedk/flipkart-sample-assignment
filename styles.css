@@ -14,39 +14,48 @@ header {
     height: 40px;
     background-color: rgb(228, 226, 119);
     display: flex;
-    justify-content:space-evenly;
+    justify-items: space-evenly;
 
 }
+header .category {
+    width:20%;
+    height:100%;
+}
+
 header img {
     height: 100%;
+    object-fit: contain;
 }
-
 
 
 
 
 
 nav {
-    height: 160px;
+    height: 180px;
     width: 100%;
     background-color: rgb(225, 247, 250);
     margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     border: 1px solid black;
 
 }
-nav img {
-    height: 60%;
-    object-fit: contain;
-    padding-top: 3px;
 
+nav .category {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    border: 1px solid red;
+    text-align: center;
+    justify-content: space-evenly;
+    
 }
-
-
+nav .category img {
+    width: 100%;
+    object-fit: contain;
+}
 
 
 
