@@ -17,6 +17,8 @@ header {
     background-color: rgb(231, 209, 137);
     display: flex;
     justify-items: space-evenly;
+    position: sticky;
+    top: 0;
 
 }
 header .head {
@@ -26,10 +28,10 @@ header .head {
     justify-content: space-evenly;
     align-items: center;
 }
-
-
-
-
+header .head a {
+    text-decoration: none;
+    color: black;
+}
 header img {
     height: 100%;
     object-fit: contain;
@@ -39,8 +41,6 @@ header button {
     margin-top: 8%;
     margin-bottom: 8%;
 }
-
-
 
 nav {
     height: 180px;
@@ -75,6 +75,7 @@ nav .category img {
     background-color: beige;
     display: flex;
     border: 1px solid black;
+    height: 350px;
 }
 .banner img {
     width: 100%;
@@ -175,15 +176,40 @@ footer .footer1 {
     flex: 2;
     border: 1px solid white;
     background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
 }
+footer .addres1 .contact {
+    margin-left: 30px;
+    flex: 1;
+    color: white;
+}
+
 .footer1 .addres2 {
+    display: flex;
+    align-items: center;
     flex: 1;
     border: 1px solid white;
     background-color: rgb(0, 0, 0);
 }
 
+footer .addres2 .contact {
+    margin-left: 30px;
+    flex: 1;
+    color: white;
+}
 
 footer .footer2 {
+    display: flex;
     height: 30%;
     background-color: rgb(0, 0, 0);
+}
+footer .footer2 .social {
+    flex: 1;
+    align-items: center;
+}
+footer .footer2 .social img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
